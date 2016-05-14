@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="grpc-hello:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="grpc-hello-1.0.0.war">
+      <element id="artifact" artifact-name="grpc-hello:war exploded" />
+    </root>
+  </artifact>
+</component>

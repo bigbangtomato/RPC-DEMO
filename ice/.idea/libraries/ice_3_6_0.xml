@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ice-3.6.0">
+    <CLASSES>
+      <root url="jar://E:/ZeroC/Ice-3.6.0/lib/ice-3.6.0.jar!/" />
+      <root url="jar://E:/ZeroC/Ice-3.6.0/lib/icebox-3.6.0.jar!/" />
+      <root url="jar://E:/ZeroC/Ice-3.6.0/lib/icegrid-3.6.0.jar!/" />
+      <root url="jar://E:/ZeroC/Ice-3.6.0/lib/icepatch2-3.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../base/webcontext/WEB-INF/lib/guava-18.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
