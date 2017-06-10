@@ -25,7 +25,7 @@
                 <option>-Xms2G</option>
 				<option>-Xmx2G</option>
 				<option>IceBox.Server</option>
-			<env>CLASSPATH=e:\ZeroC\Ice-3.6.0\lib\*;e:\rpc\ice\out\production\ice</env>
+			<env>CLASSPATH=/usr/bin/*;/usr/lib/x86_64-linux-gnu</env>
 				<service name="OnlineBook" entry="com.xxx.demo.imp.HelloImp">
 					<adapter name="OnlineBook" id="OnlineBook" endpoints="default"
 						replica-group="ReplicatedAdapter" />
