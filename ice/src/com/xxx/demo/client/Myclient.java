@@ -2,6 +2,7 @@ package com.xxx.demo.client;
 
 import com.xxx.demo.demo.MyServicePrx;
 import com.xxx.demo.demo.MyServicePrxHelper;
+import com.xxx.demo.demo.Order;
 
 /**
  * Created by magicdoom on 2015/7/11.
@@ -30,8 +31,11 @@ public class Myclient
             long start=System.currentTimeMillis();
             int count=perCount;
             String x=null;
+			Order order = new Order();
+			order.orderId = 1;
             for(int i=0;i<count;i++)
             {
+				onlinBook.hello(order);
                // x=   onlinBook.hello(String.valueOf(i));
                 //System.out.println(x);
             }
